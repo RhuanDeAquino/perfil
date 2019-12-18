@@ -1,0 +1,42 @@
+.conteiner {
+    background-image: url("http://st.gde-fon.com/wallpapers_original/564322_grafiti_risunok_cherno-beloe_1920x1200_www.Gde-Fon.com.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex
+    
+}
+p {
+    margin: 0;
+}
+.caixa-foto {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.foto {
+    z-index: 0;
+    width: 30%;
+    box-shadow: white 1px 1px 50px 1px;
+}
+.foto:hover {
+    width: 35%;
+    transition: 1s;
+}
+h1 {
+    color: red;
+}
+.stitch {
+    width: 10%;
+}
+.megaman {
+    width: 10%;
+}
+.goku {
+    width: 50%;
+    z-index: 1;
+
+}
